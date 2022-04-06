@@ -1,0 +1,264 @@
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna?styles=18991');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap');
+body{
+    background-color: black;
+    font-family: 'PT Sans','Playfair Display';
+    font-size: 15px;
+    color: #FFFFFF;
+}
+p{
+    margin: 20px;
+}
+h1{
+    font-family: Post No Bills Jaffna;
+font-size: 74px;
+font-weight: 700;
+line-height: 96px;
+letter-spacing: 0em;
+text-align: center;
+margin: 0%;
+}
+h2{font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    }
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.wrapper{
+width: 1460px;
+margin: auto;
+}
+
+.header_contact {
+    
+  padding-top: 14px;
+  padding-bottom: 14px;
+    background-color: black;    
+    display: flex;
+justify-content: space-between;
+}
+.header_contact a{
+    color: #969696
+}
+.header_menu{
+   
+    background-color:  #0F0F0F;    
+}
+.head_menu{
+    display: flex;
+    align-items: baseline;    
+}
+.logo{
+    font-family: Post No Bills Jaffna;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+}
+.nav{
+    margin-left: 750px;
+    display: flex;
+    
+}
+.nav_item{
+    margin-left: 40px;
+    
+    list-style-type: none;
+}
+.nav_item a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.head_cart_btn{
+    margin-left: 60px;
+}
+#search{
+    margin-left: 40px;
+}
+.first_screen{
+   
+    background-image: url(../img/ing_header.png);
+}
+.fs_logo{
+    padding-top: 155px;
+    padding-left: 600px ;
+}
+.wrapper_logo{
+    
+   
+    padding-top: 80px;
+    padding-left: 60px;
+    width: 320px;
+    box-sizing: border-box;
+height: 320px;
+border: 4px solid #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: baseline;
+}
+.border{
+    width: 179px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+.logo_desk{
+    margin: 0%;
+    font-family: PT Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+}
+.comp_desk{
+  padding-left: 400px;
+    padding-top: 85px;
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+max-width: 730px;
+padding-bottom: 100px;
+}
+.season20_21{
+    display: flex;
+    
+}
+.season21{
+    width: 65%;
+}
+.header_wrapper{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new_collection{
+    box-sizing: border-box;
+    padding-top: 300px;
+    width: 880px;
+height: 730px;
+    background-image: url(../img/sea2021.png);
+}
+.new_butt{
+    margin-left: 300px;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    font-family: 'PT Sans';
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+border: 1px solid #FFFFFF;
+width: 138px;
+height: 47px;
+}
+.new_butt p{
+    margin-top: 15px;
+}
+.product_list{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+}
+.product_item{
+    padding-bottom: 40px;
+    margin-left: 80px;
+}
+.product_img{
+    background-color: #191B1C;
+}
+.season18{
+    display: flex;
+    
+}
+.img_2018{
+    width: 800px;
+    height: 600px;
+background-image: url(../img/foto_hb.png);
+background-repeat: no-repeat;
+
+}
+.seaso18{
+    width: 50%;
+}
+.season2018_desk{
+    font-family: PT Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+width: 500px;
+margin-top: 40px;
+margin-left: 200px;
+}
+.my_brend{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.partners{
+    background-color: #0F0F0F;
+    padding-bottom: 40px;
+}
+footer{
+    
+    background-image: url(../img/Rectangle\ 15.png);
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.footer_header{
+    margin-left: 0%;
+    font-family: 'Playfair Display';
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+}
+.about_us_desk{
+    padding-top: 5px;
+    margin-left: 0%;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+}
+.about_us_desk p{
+    margin-left: 0%;
+}
+.categories_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories_item{
+    margin-left: 20px;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   background-color: #0F0F0F;
+   height: 40px;
+   cursor: pointer;
+}
+.categories_item a{
+    margin-top: 10px;
+    text-align: center;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;}
