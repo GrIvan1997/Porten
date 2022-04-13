@@ -264,7 +264,7 @@ font-family: 'PT Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;}
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (max-width: 1350px) {
     .fs_logo{
         padding-left: 360px;
     }
