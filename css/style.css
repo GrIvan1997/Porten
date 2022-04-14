@@ -470,3 +470,164 @@ font-size: 14px;}
         margin-left: 0%;
     }
 }
+
+@media (min-width: 320px) and (max-width: 479px) {
+ 
+    .wrapper{
+        width: 100%;
+    }
+    body{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .nav{display: none;}
+    .nav_item{
+        width: 100px;
+    }
+    .fs_logo{
+        padding-left: 12%;
+        padding-top: 20%;
+    }
+    .comp_desk{
+        font-size: 14px;
+        padding-top: 10%;
+        padding-left: 0%;
+        padding-bottom: 47%;
+    }
+  .season20_21{
+    display: flex;
+    flex-flow: column-reverse;}
+    .first_screen{
+        padding-bottom: 0;
+    }
+    .new_collection{
+        width: 100%;
+        background-size: cover;
+        padding-top: 200px;
+    }
+    .comp_desk p{
+        margin-bottom: 0%;
+    }
+    .new_butt{
+        margin-left: 34%;
+    }
+    .season21{
+       margin-bottom: 100px;
+        width: 100%;
+    }
+    .product_list{
+        margin-left: 20%;
+    }
+    .product_item{
+        margin-left: 150px;
+    }
+    .season18{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    .seaso18{
+       margin-top: -600px;
+    }
+    .img_2018{
+        width: 100%;
+        background-size: cover;
+    }
+    .season2018_desk{
+        font-size: 13px;
+        width: 320px;
+        margin-left: -54%;
+    }
+    .product_item{
+        margin-left: 3%;
+    }
+    .footer{
+        grid-template-columns: 6fr 6fr;
+    }
+    .mailing_desk p{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper{
+        width: 100%;
+    }
+    body{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .nav{display: none;}
+    .nav_item{
+        width: 100px;
+    }
+    .fs_logo{
+        padding-left: 12%;
+        padding-top: 20%;
+    }
+    .comp_desk{
+        font-size: 14px;
+        padding-top: 10%;
+        padding-left: 0%;
+        padding-bottom: 47%;
+    }
+  .season20_21{
+    display: flex;
+    flex-flow: column-reverse;}
+    .first_screen{
+        padding-bottom: 0;
+    }
+    .new_collection{
+        width: 100%;
+        background-size: cover;
+        padding-top: 200px;
+    }
+    .comp_desk p{
+        margin-bottom: 0%;
+    }
+    .new_butt{
+        margin-left: 34%;
+    }
+    .season21{
+       margin-bottom: 100px;
+        width: 100%;
+    }
+    .product_list{
+        margin-left: 20%;
+    }
+    .product_item{
+        margin-left: 150px;
+    }
+    .season18{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    .seaso18{
+       margin-top: -600px;
+    }
+    .img_2018{
+        width: 100%;
+        background-size: cover;
+    }
+    .season2018_desk{
+        font-size: 13px;
+        width: 300px;
+        margin-left: -54%;
+    }
+    .product_item{
+        margin-left: 3%;
+    }
+    .footer{
+        grid-template-columns: 6fr 6fr;
+    }
+    .mailing_desk p{
+        margin-left: 0%;
+    }
+}
